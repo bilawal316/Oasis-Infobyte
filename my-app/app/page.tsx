@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import HeroSection from './components/heroSection'
+
 
 
 export default function Home() {
@@ -7,10 +9,7 @@ export default function Home() {
       <Head>
         Oasis Infobyte - Landing page
       </Head>
-      <main> 
-        Hello World
-        </main>
-      
+      <HeroSection/>
     </div>
     
   )
