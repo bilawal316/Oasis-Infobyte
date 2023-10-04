@@ -5,17 +5,17 @@ const ProductList = () => {
     <ul>
       <li>
         <Link href="/product/[productId]" as="/product/1">
-          Pencil
+          Product 1
         </Link>
       </li>
       <li>
         <Link href="/product/[productId]" as="/product/2">
-          Sharpner
+          Product 2
         </Link>
       </li>
       <li>
         <Link href="/product/[productId]" as="/product/3">
-          Pens
+          Product 3
         </Link>
       </li>
     </ul>
