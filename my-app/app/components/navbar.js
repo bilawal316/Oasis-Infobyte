@@ -4,6 +4,7 @@ import { useState } from "react";
 import { CgMenuCheese } from "react-icons/cg";
 import { GrClose } from "react-icons/gr";
 import Image from "next/image";
+import Banner from "../components/banner";
 
  
 const Navbar = () => {
@@ -33,7 +34,8 @@ const Navbar = () => {
   ];
  
   return (
-    <nav className="text-white bg-black shadow-2xl sticky top-0 z-10 shadow-cyan-200/50 flex flex-col lg:flex-row lg:justify-center items-center rounded-md justify-around my-auto p-2 md:py-3 md:m-3 z-50">
+    <div>
+    <nav className="text-white bg-black shadow-2xl sticky top-0 z-10 shadow-cyan-200/50 flex flex-col lg:flex-row lg:justify-center items-center rounded-md justify-around my-auto p-2 md:py-3 md:m-3">
       <div className="flex flex-row justify-between w-full">
         <div className="w-36 md:w-52 my-auto">
           <Link href="/">
@@ -76,9 +78,15 @@ const Navbar = () => {
       </div>
       <div className="hidden lg:flex ml-6">
         <Link href="/#contact" className="">
-          </Link>
+          </Link>        
       </div>
     </nav>
+    <div className="z-0">
+      <div className="w-full h-full bg-black opacity-80">
+        <Banner/>
+      </div>
+    </div>
+    </div>
   );
 };
  
