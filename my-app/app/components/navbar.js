@@ -20,7 +20,7 @@ const Navbar = () => {
     },
     {
       name: "Products",
-      link: "/#products",
+      link: "/product",
     },
     {
       name: "About",
@@ -33,7 +33,7 @@ const Navbar = () => {
   ];
  
   return (
-    <nav className="text-white shadow-2xl sticky top-0 z-10 shadow-cyan-200/50 flex flex-col lg:flex-row lg:justify-center items-center rounded-md justify-around my-auto p-2 md:py-3 md:m-3">
+    <nav className="text-white bg-black shadow-2xl sticky top-0 z-10 shadow-cyan-200/50 flex flex-col lg:flex-row lg:justify-center items-center rounded-md justify-around my-auto p-2 md:py-3 md:m-3 z-50">
       <div className="flex flex-row justify-between w-full">
         <div className="w-36 md:w-52 my-auto">
           <Link href="/">

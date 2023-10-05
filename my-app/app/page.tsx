@@ -6,12 +6,17 @@ import Pencil from './components/Pencil/pencil'
 
 export default function Home() {
   return (
-    <div>
+    <div className="z-0">
       <Head>
         Oasis Infobyte - Landing page
       </Head>
       <HeroSection/>
-      <Pencil/>
+      <div className='flex'>
+        <Pencil/>
+        <Pencil/>
+        <Pencil/>
+      </div>
+      
 
       </div>
     

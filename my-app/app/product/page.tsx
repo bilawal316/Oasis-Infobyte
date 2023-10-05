@@ -4,8 +4,8 @@ const ProductList = () => {
   return (
     <ul>
       <li>
-        <Link href="/product/[productId]" as="/product/1">
-          Product 1
+        <Link href="/product/pencil" as="/product/pencil">
+          Pencil
         </Link>
       </li>
       <li>

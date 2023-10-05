@@ -5,12 +5,7 @@ const Pencil = () => {
   return (
     <div className="max-w-md mx-auto bg-white rounded-xl overflow-hidden shadow-lg">
      <div className="w-full h-64 relative">
-  <Image
-    src="/pencil1.jpg"
-    alt="pencil"
-    layout="fill"
-    objectFit="cover"
-  />
+     <Image src="/pencil1.jpg" width={500} height={300} />
 </div>
       <div className="p-6">
         <h2 className="font-bold text-xl mb-2">Premium Pencil</h2>
